@@ -35,4 +35,5 @@ async def predict(file: UploadFile = File(...)):
     return jsonable_encoder(result)
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=5000)
+    import uvicorn
+    uvicorn.run(app)
