@@ -14,6 +14,7 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="")
 
+detector = load_detector_model()
 
 @app.get('/', response_class=HTMLResponse)
 def home(request: Request):
@@ -22,9 +23,7 @@ def home(request: Request):
 
 @app.post('/detect')
 async def predict(file: UploadFile = File(...)):
-    detector = load_detector_model()
     file_location = f"uploads/{file.filename}"
-
     async with aiofiles.open(file_location, 'wb') as out_file:
         content = await file.read()  # async read
         await out_file.write(content)  # async write
