@@ -43,10 +43,10 @@ Start the server
 ## Screenshots
 
 <p float="left">
-  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/1.png?raw=true" width="50%" />
-  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/2.png?raw=true" width="50%" />
+  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/1.png?raw=true" width="49%" />
+  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/2.png?raw=true" width="49%" />
 </p>
 <p>
-  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/3.png?raw=true" width="50%" />
-  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/Untitled%20design%20(2).gif?raw=true" width="50%" />
+  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/3.png?raw=true" width="49%" />
+  <img src="https://github.com/mhdsbq/Object-Detector/blob/main/readme-images/Untitled%20design%20(2).gif?raw=true" width="49%" />
 </p>
