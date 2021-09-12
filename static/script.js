@@ -40,7 +40,6 @@ defaultBtn.addEventListener("change", function(){
         let valueStore = defaultBtn.value.match(regExp);
         fileName.textContent = valueStore;
     }
-    console.log("somthing jest happend")
     detectBtn.addEventListener('click',function(){
         
         let html = ''
